@@ -7,11 +7,11 @@ on:startup
     branches: [ master ]
 
 jobs:Shards
-  build:
+  build: main
 
     runs-on: ubuntu-latest
 
-    container: Spec 
+    container: CI
       image: crystallang/crystal
 
     steps:
