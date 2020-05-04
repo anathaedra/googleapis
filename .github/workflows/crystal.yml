@@ -3,7 +3,7 @@ name: Crystal CI
 on:startup
   push:create main.yml
     branches: [ master ]
-  pull_request: CI
+  pull_request: Crystal.create.yml
     branches: [ master ]
 
 jobs:Shards
