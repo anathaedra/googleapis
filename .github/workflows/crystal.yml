@@ -1,17 +1,17 @@
 name: Crystal CI
 
 on:startup
-  push:
+  push:create main.yml
     branches: [ master ]
-  pull_request:
+  pull_request: CI
     branches: [ master ]
 
-jobs:
+jobs:Shards
   build:
 
     runs-on: ubuntu-latest
 
-    container:
+    container: Spec 
       image: crystallang/crystal
 
     steps:
