@@ -1,14 +1,13 @@
 name: Crystal CI
 
 on:startup
-  push:
+  push:Shards
     branches: [ master ]
-  pull_request:
+  pull_request: Create main.yml
     branches: [ master ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     container:
